@@ -1,0 +1,1683 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  width: 1200px;
+  height: 8364px;
+  margin: auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.header {
+  width: 1200px;
+  height: 494px;
+  margin: 19px auto;
+  background-color: #BDD5FF;
+}
+
+@media (max-width: 420px) {
+  .header {
+    width: 420px;
+    height: 560px;
+  }
+}
+
+.header__top {
+  width: 894px;
+  margin: auto;
+  padding-top: 19px;
+}
+
+.header__top li {
+  display: inline-block;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14.7px;
+}
+
+.header__top li .white {
+  color: #FFF;
+}
+
+@media (max-width: 420px) {
+  .header__top {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.left {
+  width: 500px;
+}
+
+@media (max-width: 420px) {
+  .left {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 50px auto;
+    margin-bottom: 25px;
+  }
+}
+
+.right {
+  width: 150px;
+}
+
+@media (max-width: 420px) {
+  .right {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
+.header__button {
+  width: 425px;
+  height: 56px;
+  margin-top: 33px;
+  margin-left: 150px;
+  border-radius: 28px;
+  border: 1px solid #C7C9CC;
+  background-color: #FFF;
+  position: relative;
+}
+
+@media (max-width: 420px) {
+  .header__button {
+    margin: auto;
+  }
+}
+
+.header__button .lupa {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.header__button .krug {
+  position: absolute;
+  top: 5px;
+  left: 375px;
+}
+
+.header__button .strelka {
+  position: absolute;
+  top: 20px;
+  left: 365px;
+}
+
+.header__title__row {
+  width: 1100px;
+}
+
+.header__title__row .header__image {
+  padding-top: 90px;
+}
+
+@media (max-width: 420px) {
+  .header__title__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .header__title h2 {
+    width: 300px;
+    text-align: center;
+    margin: 50px auto;
+  }
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.payment_style {
+  width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 420px) {
+  .payment_style {
+    width: 420px;
+    padding-top: 500px;
+  }
+}
+
+.payment__row {
+  width: 888px;
+  height: 550px;
+  margin: auto;
+}
+
+@media (max-width: 420px) {
+  .payment__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+.payment__row__blocks {
+  width: 265px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.payment__row__blocks img {
+  width: 50px;
+  height: 50px;
+}
+
+.payment__row__blocks p {
+  width: 260px;
+  text-align: center;
+  padding-top: 15px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.playwithkarla {
+  width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 420px) {
+  .playwithkarla {
+    width: 420px;
+    margin-top: 150px;
+  }
+}
+
+.playwithkarla h2 {
+  width: 236px;
+  margin: 56px auto;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.playwithkarla__row {
+  width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 267px);
+  column-gap: 50px;
+}
+
+@media (max-width: 420px) {
+  .playwithkarla__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.playwithkarla__row p {
+  width: 260px;
+  padding-top: 15px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.playwithkarla__row .learn__more {
+  width: 150px;
+  display: flex;
+}
+
+@media (max-width: 420px) {
+  .playwithkarla__row .learn__more {
+    width: 100px;
+    margin: auto;
+  }
+}
+
+.playwithkarla__row .learn__more img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.learn__more__padding {
+  width: 150px;
+  display: flex;
+  margin-top: 20px;
+}
+
+@media (max-width: 420px) {
+  .learn__more__padding {
+    width: 100px;
+    margin: auto;
+  }
+}
+
+.learn__more__padding img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.playwithkarla__blocks img {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.playwithkarla__blocks img {
+  transition: 1s;
+  position: relative;
+  z-index: -1;
+}
+
+.playwithkarla__blocks:hover img {
+  transform: scale(1.1);
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.partnerstores {
+  width: 1200px;
+  margin: 102px auto;
+}
+
+.partnerstores__title {
+  width: 900px;
+  margin: auto;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+@media (max-width: 420px) {
+  .partnerstores__title {
+    width: 420px;
+    margin: auto;
+  }
+}
+
+.partnerstores__title p {
+  margin-bottom: 25px;
+}
+
+@media (max-width: 420px) {
+  .partnerstores__title p {
+    width: 100px;
+    display: flex;
+  }
+}
+
+.partnerstores__title img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 420px) {
+  .partnerstores__title img {
+    width: 50px;
+    display: inline-block;
+    margin: auto;
+  }
+}
+
+.strelka {
+  margin-left: 25px;
+}
+
+.partnerstores__row {
+  width: 900px;
+  margin: 31px auto;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+@media (max-width: 420px) {
+  .partnerstores__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+.blocks__icon {
+  width: 50px;
+}
+
+.blocks__text {
+  width: 150px;
+}
+
+.partners__blocks img {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.partners__blocks img:hover {
+  border: 3px double blue;
+}
+
+.partners__blocks img::after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  left: 15px;
+  top: 15px;
+  bottom: 15px;
+  right: 15px;
+  border: 3px double gray;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.partners__blocks img:hover::after {
+  opacity: 1;
+}
+
+.partners__blocks img {
+  transition: 1s;
+  position: relative;
+  z-index: -1;
+}
+
+.partners__blocks:hover img {
+  transform: scale(1.2);
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.klarnacard {
+  width: 1200px;
+  height: 553px;
+  background-color: #0E0E0F;
+  margin: auto;
+}
+
+@media (max-width: 420px) {
+  .klarnacard {
+    width: 420px;
+  }
+}
+
+.klarnacard__row {
+  width: 900px;
+  margin: auto;
+}
+
+.klarnacard__row img {
+  margin-left: 59px;
+}
+
+@media (max-width: 420px) {
+  .klarnacard__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.klarna__title {
+  width: 424px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.klarna__title .klarna {
+  margin-top: 91px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.klarna__title h2 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.klarna__title .text {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.klarna__button {
+  width: 125px;
+  height: 39px;
+  margin-top: 43px;
+  background-color: #FFB3C7;
+}
+
+.klarna__button p {
+  text-align: center;
+  margin-top: 10px;
+  color: #171717;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media (max-width: 420px) {
+  .klarna__button {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+.klarna__img {
+  width: 425px;
+  height: 425px;
+  animation: img 4s linear infinite;
+}
+
+@media (max-width: 420px) {
+  .klarna__img {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+  }
+}
+
+@keyframes img {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.getinspired {
+  width: 1200px;
+  margin: auto;
+}
+
+.getinspired__row {
+  width: 900px;
+  margin: 64px auto;
+  opacity: 0;
+  animation: fadeIn 10s forwards;
+}
+
+@media (max-width: 420px) {
+  .getinspired__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding-top: 500px;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.getinspired__text {
+  width: 423px;
+  display: flex;
+  flex-direction: column;
+}
+
+.getinspired__text h2 {
+  margin-bottom: 20px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.getinspired__text p {
+  margin-bottom: 29px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.button {
+  width: 166px;
+  height: 50px;
+  background: #17120F;
+}
+
+.button p {
+  text-align: center;
+  margin-top: 16px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media (max-width: 420px) {
+  .button {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.photocollage {
+  width: 1200px;
+  margin: auto;
+}
+
+.photocollage__row {
+  width: 900px;
+  height: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 265px);
+  grid-template-rows: repeat(3, 265px);
+  grid-column-gap: 52px;
+  grid-row-gap: 150px;
+}
+
+@media (max-width: 420px) {
+  .photocollage__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+  }
+}
+
+.photocollage__blocks {
+  width: 265px;
+  height: 331px;
+  position: relative;
+  z-index: 2;
+}
+
+.photocollage__blocks p {
+  margin-top: 15px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.photocollage__blocks img {
+  transition: 1s;
+  position: relative;
+  z-index: -2;
+}
+
+.photocollage__blocks::after {
+  content: '';
+  position: absolute;
+  z-index: 5;
+  left: 15px;
+  top: 15px;
+  bottom: 15px;
+  right: 15px;
+  border: 3px double gray;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.photocollage__blocks:hover::after {
+  opacity: 1;
+}
+
+.photocollage__blocks:hover img {
+  transform: scale(1.1);
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.disoverdeals {
+  width: 1200px;
+  margin: auto;
+}
+
+.disoverdeals__row {
+  width: 900px;
+  height: 500px;
+  margin: 117px auto;
+}
+
+@media (max-width: 420px) {
+  .disoverdeals__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 3100px;
+  }
+}
+
+.disoverdeals__title {
+  width: 137px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.disoverdeals__title .title__icon {
+  width: 53px;
+}
+
+@media (max-width: 420px) {
+  .disoverdeals__title {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.disoverdeals__blocks {
+  width: 900px;
+  margin-top: 31px;
+}
+
+@media (max-width: 420px) {
+  .disoverdeals__blocks {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.disoverdeals__img {
+  width: 265px;
+  height: 265px;
+  animation: pulse 10s ease-in-out infinite;
+}
+
+.disoverdeals__img p {
+  width: 200px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+@media (max-width: 420px) {
+  .disoverdeals__img {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 250px;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+}
+
+.viewdetails {
+  width: 125px;
+  margin-top: 63px;
+}
+
+@media (max-width: 420px) {
+  .viewdetails {
+    width: 150px;
+    display: flex;
+  }
+}
+
+.viewdetails p {
+  color: #487B94;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.klarnacommission {
+  margin-top: 12px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.shopcategory {
+  width: 1200px;
+  margin: 62px auto;
+  background-color: #F0F1F1;
+}
+
+.shopcategory .shoppadding {
+  width: 162px;
+  padding-top: 62px;
+  margin-left: 150px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media (max-width: 420px) {
+  .shopcategory {
+    width: 420px;
+    margin: auto;
+    padding-top: 1750px;
+  }
+}
+
+.shopcategory__row {
+  width: 900px;
+  margin: 22px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  grid-template-rows: repeat(3, 150px);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+@media (max-width: 420px) {
+  .shopcategory__row {
+    width: 420px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-column-gap: 100px;
+    margin: auto;
+  }
+}
+
+.shopcategory__blocks {
+  width: 150px;
+  height: 123px;
+  text-align: center;
+  border-radius: 16px;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.shopcategory__blocks img {
+  width: 50px;
+  height: 50px;
+  margin: 16px auto;
+}
+
+.shopcategory__blocks p {
+  margin: auto;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.discoverfeatures {
+  width: 1200px;
+  margin: auto;
+}
+
+.discoverfeatures__row {
+  width: 900px;
+  margin: auto;
+}
+
+@media (max-width: 420px) {
+  .discoverfeatures__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.discoverfeatures__row h2 {
+  margin-top: 90px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+@media (max-width: 420px) {
+  .discoverfeatures__row h2 {
+    width: 420px;
+    text-align: center;
+  }
+}
+
+.discoverfeatures__row p {
+  width: 736px;
+  margin-top: 17px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+@media (max-width: 420px) {
+  .discoverfeatures__row p {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.discoverfeatures__row .loyaltytext {
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.discoverfeatures__row .opacitytext {
+  color: #BBB8B5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.discoverfeatures__icon2 {
+  width: 53px;
+  margin-top: 55px;
+}
+
+@media (max-width: 420px) {
+  .discoverfeatures__icon2 {
+    width: 50px;
+    display: flex;
+    margin: 10px auto;
+  }
+}
+
+.discoverfeatures__img {
+  width: 900px;
+  margin: 26px auto;
+}
+
+@media (max-width: 420px) {
+  .discoverfeatures__img {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 90px;
+  }
+}
+
+.discoverfeatures__img img {
+  width: 437px;
+  transition: 5s;
+  position: relative;
+  z-index: -1;
+}
+
+.discoverfeatures__img img {
+  transform: scale(1.2);
+}
+
+.discoverfeatures__text {
+  width: 306px;
+  margin-right: 50px;
+}
+
+@media (max-width: 420px) {
+  .discoverfeatures__text {
+    width: 350px;
+    margin: 70px auto;
+  }
+}
+
+.discoverfeatures__text h2 {
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+@media (max-width: 420px) {
+  .discoverfeatures__text h2 {
+    width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.discoverfeatures__text p {
+  width: 306px;
+  margin-top: 17px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+@media (max-width: 420px) {
+  .discoverfeatures__text p {
+    width: 350px;
+    text-align: center;
+  }
+}
+
+.discoverfeatures__icon {
+  width: 130px;
+}
+
+@media (max-width: 420px) {
+  .discoverfeatures__icon {
+    width: 140px;
+    margin: auto;
+  }
+}
+
+.discoverfeatures__icon p {
+  color: #487B94;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.discoverfeatures__icon img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.savetimeklarna {
+  width: 1200px;
+  height: 659px;
+  margin: auto;
+  background: #FFE6CC;
+}
+
+@media (max-width: 420px) {
+  .savetimeklarna {
+    width: 420px;
+    height: 910px;
+  }
+}
+
+.savetimeklarna__row {
+  width: 900px;
+  margin: auto;
+}
+
+@media (max-width: 420px) {
+  .savetimeklarna__row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+}
+
+.savetimeklarna__text h2 {
+  width: 425px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.savetimeklarna__text p {
+  width: 394px;
+  margin-top: 20px;
+  color: #171717;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.savetimeklarna__button {
+  width: 380px;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+@media (max-width: 420px) {
+  .savetimeklarna__button {
+    width: 350px;
+    margin: 30px auto;
+  }
+}
+
+.savetimeklarna__button .dark {
+  width: 550px;
+  height: 50px;
+  border: 1px solid #17120F;
+  background: #17120F;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.savetimeklarna__button .white {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #D1D0CE;
+  background: #FFF;
+  color: 17120F;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.savetimeklarna__img {
+  margin-top: 64px;
+}
+
+@media (max-width: 420px) {
+  .savetimeklarna__img {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+}
+
+.header__top, .left, .right, .header__title__row, .payment__row, .payment__row__blocks, .partnerstores__row, .blocks__icon, .blocks__text, .klarnacard__row, .getinspired__row, .disoverdeals__title .title__icon, .disoverdeals__blocks, .viewdetails, .discoverfeatures__icon2, .discoverfeatures__img, .discoverfeatures__icon, .savetimeklarna__row, .savetimeklarna__button, .footer__main, .footer__icon, .footer__icons, .footer__end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.footer__menu {
+  width: 1200px;
+  max-height: 1000px;
+  margin: auto;
+  background-color: #0E0E0F;
+  position: relative;
+}
+
+@media (max-width: 420px) {
+  .footer__menu {
+    width: 420px;
+    max-height: 2000px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+.footer__main {
+  width: 1104px;
+  height: 500px;
+  margin: auto;
+}
+
+@media (max-width: 420px) {
+  .footer__main {
+    width: 420px;
+    max-height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 62px;
+  }
+}
+
+.footer__blocks {
+  width: 200px;
+  height: 341px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 23px;
+}
+
+@media (max-width: 420px) {
+  .footer__blocks {
+    width: 420px;
+    gap: 20px;
+  }
+}
+
+.footer__blocks p {
+  gap: 23px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
+.iconyesno {
+  width: 22px;
+  height: 12px;
+  position: absolute;
+  left: 880px;
+  top: 400px;
+}
+
+.footer__icon {
+  width: 130px;
+  height: 52px;
+  padding-bottom: 40px;
+  margin-bottom: 54px;
+  margin-left: 10px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
+.footer__icons {
+  width: 200px;
+  text-align: center;
+}
+
+@media (max-width: 420px) {
+  .footer__icons {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+.block__icon1 {
+  width: 40px;
+  height: 18px;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.block__icon2 {
+  width: 40px;
+  height: 17px;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.block__icon3 {
+  width: 40px;
+  height: 14px;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+.block__icon4 {
+  width: 40px;
+  height: 20px;
+  border-radius: 5px;
+  background: #FFF;
+}
+
+@media (max-width: 420px) {
+  .padding {
+    width: 420px;
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 420px) {
+  .paddingbusiness {
+    width: 420px;
+    padding-top: 150px;
+  }
+}
+
+.footer__end {
+  width: 1104px;
+  height: 100px;
+  margin: auto;
+}
+
+@media (max-width: 420px) {
+  .footer__end {
+    width: 420px;
+    height: 1120px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.end__text {
+  width: 690px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10.5px;
+}
+
+@media (max-width: 420px) {
+  .end__text {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 900px;
+  }
+}
+
+.end__list {
+  width: 380px;
+  display: flex;
+  text-align: center;
+  gap: 5px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10.5px;
+}
+
+@media (max-width: 420px) {
+  .end__list {
+    width: 420px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
