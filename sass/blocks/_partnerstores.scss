@@ -1,0 +1,93 @@
+@import '../base/vars';
+@import '../base/base';
+
+.partnerstores{
+    width: 1200px;
+    margin: 102px auto;
+}
+.partnerstores__title{
+    width: 900px;
+    margin:auto;
+    @include style ($dark, Roboto,16px,400,25px);
+    @media (max-width:420px){
+        width: 420px;
+        margin: auto;
+    }
+    p{
+        margin-bottom: 25px;
+        @media (max-width:420px){
+            width: 100px;
+            display: flex;
+        }
+    }
+    img{
+        width: 20px;
+        height: 20px;
+        @media (max-width:420px){
+            width: 50px;
+            display: inline-block;
+            margin: auto;
+        }
+    }
+}
+.strelka{
+        margin-left: 25px;
+}
+.partnerstores__row{
+    width: 900px;
+    margin: 31px auto;
+    @include style ($dark, Roboto,16px,400,25px);
+    @extend %flex;
+    @media (max-width:420px){
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+.blocks__icon{
+    width: 50px;
+    @extend %flex;
+}
+.blocks__text{
+    width: 150px;
+    @extend %flex;
+}
+
+.partners__blocks {
+    img{
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    
+        &:hover {
+            border: 3px double blue;
+        }
+    
+        &::after {
+            content: '';
+            position: absolute;
+            z-index: 2;
+            left: 15px;
+            top: 15px;
+            bottom: 15px;
+            right: 15px;
+            border: 3px double gray;
+            opacity: 0;
+            transition: opacity 0.5s ease-out;
+        }
+    
+        &:hover::after {
+            opacity: 1;
+        }
+    }
+    img {
+        transition: 1s;
+        position: relative;
+        z-index: -1;
+    }
+    
+}
+.partners__blocks:hover img {
+    transform: scale(1.2);
+}

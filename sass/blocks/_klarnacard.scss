@@ -1,0 +1,86 @@
+@import '../base/vars';
+@import '../base/base';
+
+.klarnacard {
+    width: 1200px;
+    height: 553px;
+    background-color: $dark;
+    margin: auto;
+    @media (max-width:420px){
+        width: 420px;
+    }
+}
+
+.klarnacard__row {
+    width: 900px;
+    margin: auto;
+    @extend %flex;
+    img {
+        margin-left: 59px;
+    }
+    @media (max-width:420px){
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.klarna__title {
+    width: 424px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    .klarna {
+        margin-top: 91px;
+        @include style($white, Roboto, 16px, 400, 35px);
+    }
+
+    h2 {
+        @include style($white, Roboto, 48px, 400, 55px);
+    }
+
+    .text {
+        @include style($white, Roboto, 20px, 400, 35px);
+    }
+}
+
+.klarna__button {
+    width: 125px;
+    height: 39px;
+    margin-top: 43px;
+    background-color: #FFB3C7;
+    p {
+        text-align: center;
+        margin-top: 10px;
+        @include style(#171717, Roboto, 16px, 400, 20px);
+    }
+    @media (max-width:420px){
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+
+.klarna__img {
+    width: 425px;
+    height: 425px;
+    animation: img 4s linear infinite;
+    @media (max-width:420px){
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        margin: 100px auto;
+    }
+}
+@keyframes img {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

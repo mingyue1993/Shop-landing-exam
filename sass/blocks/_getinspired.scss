@@ -1,0 +1,61 @@
+@import '../base/vars';
+@import '../base/base';
+
+.getinspired {
+    width: 1200px;
+    margin: auto;
+}
+
+.getinspired__row {
+    width: 900px;
+    margin: 64px auto;
+    @extend %flex;
+    opacity: 0;
+    animation: fadeIn 10s forwards;
+    @media (max-width:420px){
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        padding-top: 500px;
+    }
+}
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+
+.getinspired__text {
+    width: 423px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        margin-bottom: 20px;
+        @include style($dark, Roboto, 48px, 400, 55px);
+    }
+
+    p {
+        margin-bottom: 29px;
+        @include style($dark, Roboto, 28px, 400, 30px);
+    }
+}
+
+.button {
+    width: 166px;
+    height: 50px;
+    background: #17120F;
+    p {
+        text-align: center;
+        margin-top: 16px;
+        @include style($white, Roboto, 16px, 400, 20px);
+    }
+    @media (max-width:420px){
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+}

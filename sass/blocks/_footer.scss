@@ -1,0 +1,159 @@
+@import '../base/vars';
+@import '../base/base';
+
+.footer__menu {
+    width: 1200px;
+    max-height: 1000px;
+    margin: auto;
+    background-color: $dark;
+    position: relative;
+    @media (max-width:420px) {
+        width: 420px;
+        max-height: 2000px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.footer__main {
+    width: 1104px;
+    height: 500px;
+    margin: auto;
+    @extend %flex;
+        @media (max-width:420px) {
+        width: 420px;
+        max-height: 500px;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 62px;
+    }
+}
+
+.footer__blocks {
+    width: 200px;
+    height: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 23px;
+    @media (max-width:420px) {
+        width: 420px;
+        gap: 20px;
+    }
+    p {
+        gap: 23px;
+        @include style($white, Roboto, 16px, 400, 16.8px);
+    }
+}
+
+.iconyesno {
+    width: 22px;
+    height: 12px;
+    position: absolute;
+    left: 880px;
+    top: 400px;
+}
+
+.footer__icon {
+    width: 130px;
+    height: 52px;
+    padding-bottom: 40px;
+    margin-bottom: 54px;
+    margin-left: 10px;
+    @extend %flex;
+    @include style($white, Roboto, 16px, 400, 16.8px);
+}
+
+.footer__icons {
+    width: 200px;
+    
+    @extend %flex;
+    text-align: center;
+    @media (max-width:420px) {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+.block__icon1 {
+    width: 40px;
+    height: 18px;
+    border-radius: 5px;
+    background: $white;
+}
+
+.block__icon2 {
+    width: 40px;
+    height: 17px;
+    border-radius: 5px;
+    background: $white;
+}
+
+.block__icon3 {
+    width: 40px;
+    height: 14px;
+    border-radius: 5px;
+    background: $white;
+}
+
+.block__icon4 {
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    background: $white;
+}
+
+.padding {
+    @media (max-width:420px) {
+        width: 420px;
+        padding-top: 100px;
+    }
+}
+.paddingbusiness{
+    @media (max-width:420px) {
+        width: 420px;
+        padding-top: 150px;
+    }
+}
+
+.footer__end {
+    width: 1104px;
+    height: 100px;
+    margin: auto;
+    @extend %flex;
+    @media (max-width:420px) {
+        width: 420px;
+        height: 1120px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+.end__text {
+    width: 690px;
+    @include style ($white, Roboto, 10px, 400, 10.5px);
+    @media (max-width:420px) {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 900px;
+    }
+}
+.end__list {
+    width: 380px;
+    display: flex;
+    text-align: center;
+    gap: 5px;
+    @include style ($white, Roboto, 10px, 400, 10.5px);
+    @media (max-width:420px) {
+        width: 420px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }
+}

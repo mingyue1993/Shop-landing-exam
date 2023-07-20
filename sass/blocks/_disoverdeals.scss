@@ -1,0 +1,104 @@
+@import '../base/vars';
+@import '../base/base';
+
+.disoverdeals {
+    width: 1200px;
+    margin: auto;
+}
+
+.disoverdeals__row {
+    width: 900px;
+    height: 500px;
+    margin: 117px auto;
+
+    @media (max-width:420px) {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 3100px;
+    }
+}
+
+.disoverdeals__title {
+    width: 137px;
+    @include style($dark, Roboto, 20px, 400, 27px);
+
+    .title__icon {
+        width: 53px;
+        @extend %flex;
+    }
+
+    @media (max-width:420px) {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.disoverdeals__blocks {
+    width: 900px;
+    margin-top: 31px;
+    @extend %flex;
+
+    @media (max-width:420px) {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.disoverdeals__img {
+    width: 265px;
+    height: 265px;
+    animation: pulse 10s ease-in-out infinite;
+
+    p {
+        width: 200px;
+        @include style($dark, Roboto, 16px, 400, 22px);
+    }
+
+    @media (max-width:420px) {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 250px;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+}
+
+.viewdetails {
+    width: 125px;
+    margin-top: 63px;
+    @extend %flex;
+
+    @media (max-width:420px) {
+        width: 150px;
+        display: flex;
+    }
+
+    p {
+        @include style (#487B94, Roboto, 16px, 400, 25px);
+    }
+}
+
+.klarnacommission {
+    margin-top: 12px;
+    @include style ($dark, Roboto, 12px, 400, 25px);
+}

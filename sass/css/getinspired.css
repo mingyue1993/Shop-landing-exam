@@ -1,0 +1,67 @@
+.getinspired__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  width: 421px;
+  margin-left: 150px;
+  margin-top: 110px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.getinspired {
+  width: 1200px;
+  margin: auto;
+}
+
+.getinspired__row {
+  width: 900px;
+  margin: 64px auto;
+}
+
+.getinspired__text {
+  width: 423px;
+  display: flex;
+  flex-direction: column;
+}
+
+.getinspired__text h2 {
+  margin-bottom: 20px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.getinspired__text p {
+  margin-bottom: 29px;
+  color: #0E0E0F;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.button {
+  width: 166px;
+  height: 50px;
+  background: #17120F;
+}
+
+.button p {
+  text-align: center;
+  margin-top: 10px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+/*# sourceMappingURL=getinspired.css.map */

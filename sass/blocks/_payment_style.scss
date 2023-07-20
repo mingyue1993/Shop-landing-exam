@@ -1,0 +1,39 @@
+@import '../base/vars';
+@import '../base/base';
+
+.payment_style{
+    width: 1200px;
+    margin: auto;
+    @media (max-width:420px){
+        width: 420px;
+        padding-top: 500px;
+    }
+}
+.payment__row{
+    width: 888px;
+    height: 550px;
+    margin: auto;
+    @extend %flex;
+    @media (max-width:420px){
+        width: 420px;
+        display:  flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+.payment__row__blocks{
+    width: 265px;
+    margin:auto;
+    @extend %flex;
+    flex-direction: column;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    p{
+        width: 260px;
+        text-align: center;
+        padding-top: 15px;
+        @include style($dark,Roboto,16px,400,25px);
+    }
+}
